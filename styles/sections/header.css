@@ -1,0 +1,30 @@
+.header-container {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-itens a {
+  margin: 0 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.social-links-container {
+  display: flex;
+  gap: 30px;
+}
+.fa-github,
+.fa-linkedin,
+.fa-google {
+  font-size: 25px;
+  color: black;
+}
