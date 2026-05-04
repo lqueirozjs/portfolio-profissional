@@ -1,0 +1,19 @@
+.container {
+  /* Define a largura máxima */
+  max-width: 1440px;
+
+  /* Garante que o container ocupe 100% em telas menores que 1440px */
+  width: 100%;
+
+  /* Centraliza horizontalmente */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  /* Padding lateral para o conteúdo não "grudar" na borda em celulares */
+  padding-left: 20px;
+  padding-right: 20px;
+
+  /* Opcional: Garante que o padding não aumente o tamanho total do box */
+  box-sizing: border-box;
+}
